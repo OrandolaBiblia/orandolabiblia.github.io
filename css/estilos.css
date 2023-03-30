@@ -1,0 +1,601 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+/* Custome Property */
+:root{
+    --padding-container: 100px 0;
+    --color-title: #001A049;
+}
+
+/* Ctrl+k Ctrl+C para comentar */
+/* Usamos este codigo para que los estilos funcionen en cualquier dispositivo */
+body{
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(0deg, rgb(32, 18, 71) 0%,  rgb(32, 18, 71) 40%);
+   
+}
+
+/* Modificamos el contenedor de la página */
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: var(--padding-container);
+   
+}
+
+/* Cabecera: color de fondo y posicion */
+.hero{
+    background: linear-gradient(0deg, rgb(32, 18, 71) 0%,  rgb(32, 18, 71) 40%, rgb(151, 149, 172) 100%);
+    height: 10vh;
+    min-height: 320px;
+    max-height: 800px;
+    position: relative;
+    display: grid;
+    grid-template-rows: 100px 1fr;
+    width: 150%;
+    max-width: 2000px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: var(--padding-container);
+
+}
+
+/* Imágen de la cabecera */
+.hero__imagen{
+    height: 220px;
+    width: 220px;
+    margin: 3%;
+    margin-top: 3%;
+    position: absolute;
+    border-radius: 5%;
+    
+}
+/* Pre-Titulo de la cabecera */
+.hero__pretitle{
+    position: absolute;
+    top: 138px; 
+    left: 315px;
+    color: aliceblue;
+    font-size: 12px;
+}
+
+/* Titulo de la cabecera */
+.hero__title{
+    position: absolute;
+    top: 150px; 
+    left: 300px;
+    color: aliceblue;
+    font-size: 80px;
+      
+}
+
+/* Elemento Padre del Grid Layout. 
+Para fijar los elementos, hay que declarar: 
+    1. en el padre position: relative
+    2. en el hijo position: absolute */
+/* ********************************************************************************************************************************* */
+/* ********************************************************************************************************************************* */
+
+/********** Descargar PDF***************/
+.grid-descarga{
+    position: relative;
+}
+.descarga__pdf1{
+    text-decoration: none;
+    position: absolute;
+    bottom: -80px; 
+    left: 900px;
+    color: black;
+    font-size: 13px;
+    font-family: Arial;
+    background-color: aliceblue;
+    width: 115px;
+    padding: 15px 0px;
+    text-align: center;
+    border-radius: 10px;
+}
+.descarga__pdf2{
+    text-decoration: none;
+    position: absolute;
+    bottom: -190px; 
+    left: 900px;
+    color: black;
+    font-size: 13px;
+    font-family: Arial;
+    background-color: aliceblue;
+    width: 115px;
+    padding: 15px 0px;
+    text-align: center;
+    border-radius: 10px;
+}
+.descarga__pdf3{
+    text-decoration: none;
+    position: absolute;
+    bottom: -300px; 
+    left: 900px;
+    color: black;
+    font-size: 13px;
+    font-family: Arial;
+    background-color: aliceblue;
+    width: 115px;
+    padding: 15px 0px;
+    text-align: center;
+    border-radius: 10px;
+}
+.descarga__pdf4{
+    text-decoration: none;
+    position: absolute;
+    bottom: -410px; 
+    left: 900px;
+    color: black;
+    font-size: 13px;
+    font-family: Arial;
+    background-color: aliceblue;
+    width: 115px;
+    padding: 15px 0px;
+    text-align: center;
+    border-radius: 10px;
+}
+.descarga__pdf5{
+    text-decoration: none;
+    position: absolute;
+    bottom: -520px; 
+    left: 900px;
+    color: black;
+    font-size: 13px;
+    font-family: Arial;
+    background-color: aliceblue;
+    width: 115px;
+    padding: 15px 0px;
+    text-align: center;
+    border-radius: 10px;
+}
+.descarga__pdf6{
+    text-decoration: none;
+    position: absolute;
+    bottom: -620px; 
+    left: 900px;
+    color: black;
+    font-size: 13px;
+    font-family: Arial;
+    background-color: aliceblue;
+    width: 115px;
+    padding: 15px 0px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+/* **************FIN Descargar PDF***************/
+
+/* ********************************************************************************************************************************* */
+/* ********************************************************************************************************************************* */
+/* Texto Padre */
+.grid-salmo{
+    position: relative;
+}
+
+/* **********************Salmo 1********************************************* */
+/* Orden Salmo 1 */
+.orden__Salmo1
+{
+    position: relative;
+    bottom: -75px;
+    left: 50px; 
+    color: aliceblue;
+    font-size: 20px;
+    
+}
+
+/* Capuitulo Salmo 1 */
+.cap__Salmo1
+{
+    position: absolute;
+    bottom: -55px; 
+    left: 90px;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+/* Texto Salmo 1 */
+.versiculo__Salmo1
+{
+    position: absolute;
+    bottom: -75px; 
+    left: 90px;
+    color: aliceblue;
+    font-size: 15px;
+    font-family: "Calibri"
+}
+/* Texto 2 Salmo 1 */
+.versiculo2__Salmo1
+{
+    position: absolute;
+    bottom: -95px; 
+    left: 90px;
+    color: aliceblue;
+    font-size: 15px;
+    font-family: "Calibri"
+}
+/******************************* FIN Salmo 1********************************************* */
+/* **********************Salmo 2********************************************* */
+/* Orden Salmo 2 */
+.orden__Salmo2
+{
+    position: absolute;
+    bottom: -183px;
+    left: 50px; 
+    color: aliceblue;
+    font-size: 20px;
+    
+}
+/* Capuitulo Salmo 1 */
+.cap__Salmo2
+{
+    position: absolute;
+    bottom: -165px; 
+    left: 90px;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+/* Texto Salmo 2 */
+.versiculo__Salmo2
+{
+    position: absolute;
+    bottom: -185px; 
+    left: 90px;
+    color: aliceblue;
+    font-size: 15px;
+    font-family: "Calibri"
+}
+/******************************* FIN Salmo 2********************************************* */
+/* **********************Salmo 3********************************************* */
+/* Orden Salmo 3 */
+.orden__Salmo3
+{
+    position: absolute;
+    bottom: -299px;
+    left: 50px; 
+    color: aliceblue;
+    font-size: 20px;
+    
+}
+/* Capuitulo Salmo 3 */
+.cap__Salmo3
+{
+    position: absolute;
+    bottom: -275px; 
+    left: 90px;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+/* Texto Salmo 3 */
+.versiculo__Salmo3
+{
+    position: absolute;
+    bottom: -295px; 
+    left: 90px;
+    color: aliceblue;
+    font-size: 15px;
+    font-family: "Calibri"
+}
+/* Texto 2 Salmo 3 */
+.versiculo1__Salmo3
+{
+    position: absolute;
+    bottom: -315px; 
+    left: 90px;
+    color: aliceblue;
+    font-size: 15px;
+    font-family: "Calibri"
+}
+/******************************* FIN Salmo 3********************************************* */
+/* **********************Salmo 4********************************************* */
+/* Orden Salmo 4 */
+.orden__Salmo4
+{
+    position: absolute;
+    bottom: -400px;
+    left: 50px; 
+    color: aliceblue;
+    font-size: 20px;
+    
+}
+/* Capuitulo Salmo 4 */
+.cap__Salmo4
+{
+    position: absolute;
+    bottom: -380px; 
+    left: 90px;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+/* Texto Salmo 4 */
+.versiculo__Salmo4
+{
+    position: absolute;
+    bottom: -400px; 
+    left: 90px;
+    color: aliceblue;
+    font-size: 15px;
+    font-family: "Calibri"
+}
+/* Texto 2 Salmo 4 */
+.versiculo1__Salmo4
+{
+    position: absolute;
+    bottom: -420px; 
+    left: 90px;
+    color: aliceblue;
+    font-size: 15px;
+    font-family: "Calibri"
+}
+/******************************* FIN Salmo 4********************************************* */
+/* **********************Salmo 5********************************************* */
+/* Orden Salmo 5 */
+.orden__Salmo5
+{
+    position: absolute;
+    bottom: -510px;
+    left: 50px; 
+    color: aliceblue;
+    font-size: 20px;
+    
+}
+/* Capuitulo Salmo 5 */
+.cap__Salmo5
+{
+    position: absolute;
+    bottom: -490px; 
+    left: 90px;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+/* Texto Salmo 5 */
+.versiculo__Salmo5
+{
+    position: absolute;
+    bottom: -510px; 
+    left: 90px;
+    color: aliceblue;
+    font-size: 15px;
+    font-family: "Calibri"
+}
+/* Texto 2 Salmo 5 */
+.versiculo1__Salmo5
+{
+    position: absolute;
+    bottom: -530px; 
+    left: 90px;
+    color: aliceblue;
+    font-size: 15px;
+    font-family: "Calibri"
+}
+/******************************* FIN Salmo 5********************************************* */
+/* **********************Salmo 6********************************************* */
+/* Orden Salmo 6 */
+.orden__Salmo6
+{
+    position: absolute;
+    bottom: -620px;
+    left: 50px; 
+    color: aliceblue;
+    font-size: 20px;
+    
+}
+/* Capuitulo Salmo 6 */
+.cap__Salmo6
+{
+    position: absolute;
+    bottom: -600px; 
+    left: 90px;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+/* Texto Salmo 6 */
+.versiculo__Salmo6
+{
+    position: absolute;
+    bottom: -620px; 
+    left: 90px;
+    color: aliceblue;
+    font-size: 15px;
+    font-family: "Calibri"
+}
+/* Texto 2 Salmo 6 */
+.versiculo1__Salmo6
+{
+    position: absolute;
+    bottom: -640px; 
+    left: 90px;
+    color: aliceblue;
+    font-size: 15px;
+    font-family: "Calibri"
+}
+/******************************* FIN Salmo 6********************************************* */
+
+
+/* ********************************************************************************************************************************* */
+/* ********************************************************************************************************************************* */
+
+/********************Audios **********************/
+/* Audio Padre */
+.grid-audio1{
+    position: relative;
+    
+}
+
+
+/* Audio Salmo 1 */
+.audio1{
+    position: absolute;
+    bottom: -90px; 
+    left: 450px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* Audio Salmo 2 */
+.audio2{
+    position: absolute;
+    bottom:-200px; 
+    left: 450px;
+    text-align: center;
+    border-radius: 10px;
+}
+/* Audio Salmo 3 */
+.audio3{
+    position: absolute;
+    bottom:-310px; 
+    left: 450px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* Audio Salmo 4 */
+.audio4{
+    position: absolute;
+    bottom:-420px; 
+    left: 450px;
+    text-align: center;
+    border-radius: 10px;
+}
+/* Audio Salmo 5 */
+.audio5{
+    position: absolute;
+    bottom:-530px; 
+    left: 450px;
+    text-align: center;
+    border-radius: 10px;
+}
+/* Audio Salmo 6 */
+.audio6{
+    position: absolute;
+    bottom:-630px; 
+    left: 450px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* ********************************************************************************************************************************* */
+/* ********************************************************************************************************************************* */
+
+/******** Lineas **********/
+/* .linea-padre
+{
+    position: relative;
+} */
+/* Lineas 1*/
+.linea-salmo1a {
+    border-top: 1px solid black;
+  height: 2px;
+  max-width: 2000px;
+  padding: 0;
+  margin: 10px auto 0 auto;
+  
+  }
+  .linea-salmo1b {
+    border-top: 1px solid black;
+  height: 2px;
+  max-width: 2000px;
+  padding: 0;
+  margin: 95px auto 0 auto;
+
+  }
+/* Lineas 2*/
+.linea-salmo2a {
+    border-top: 1px solid black;
+  height: 2px;
+  max-width: 2000px;
+  padding: 0;
+  margin: 10px auto 0 auto;
+  
+  }
+  .linea-salmo2b {
+    border-top: 1px solid black;
+  height: 2px;
+  max-width: 2000px;
+  padding: 0;
+  margin: 95px auto 0 auto;
+
+  }
+  /* Lineas 3*/
+.linea-salmo3a {
+    border-top: 1px solid black;
+  height: 2px;
+  max-width: 2000px;
+  padding: 0;
+  margin: 10px auto 0 auto;
+  
+  }
+  .linea-salmo3b {
+    border-top: 1px solid black;
+  height: 2px;
+  max-width: 2000px;
+  padding: 0;
+  margin: 95px auto 0 auto;
+
+  }
+  /* Lineas 4*/
+.linea-salmo4a {
+    border-top: 1px solid black;
+  height: 2px;
+  max-width: 2000px;
+  padding: 0;
+  margin: 10px auto 0 auto;
+  
+  }
+  .linea-salmo4b {
+    border-top: 1px solid black;
+  height: 2px;
+  max-width: 2000px;
+  padding: 0;
+  margin: 95px auto 0 auto;
+
+  }
+  /* Lineas 5*/
+.linea-salmo5a {
+    border-top: 1px solid black;
+  height: 2px;
+  max-width: 2000px;
+  padding: 0;
+  margin: 10px auto 0 auto;
+  
+  }
+  .linea-salmo5b {
+    border-top: 1px solid black;
+  height: 2px;
+  max-width: 2000px;
+  padding: 0;
+  margin: 95px auto 0 auto;
+
+  }
+  /* Lineas 6*/
+.linea-salmo6a {
+    border-top: 1px solid black;
+  height: 2px;
+  max-width: 2000px;
+  padding: 0;
+  margin: 10px auto 0 auto;
+  
+  }
+  .linea-salmo6b {
+    border-top: 1px solid black;
+  height: 2px;
+  max-width: 2000px;
+  padding: 0;
+  margin: 95px auto 0 auto;
+
+  }
+
+
+
+
+
+   
