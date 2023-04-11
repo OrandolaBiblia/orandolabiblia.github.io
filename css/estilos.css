@@ -84,8 +84,8 @@ Para fijar los elementos, hay que declarar:
 .descarga__pdf1{
     text-decoration: none;
     position: absolute;
-    bottom: -80px; 
-    left: 900px;
+    bottom: -85px; 
+    left: 1150px;
     color: black;
     font-size: 13px;
     font-family: Arial;
@@ -98,8 +98,8 @@ Para fijar los elementos, hay que declarar:
 .descarga__pdf2{
     text-decoration: none;
     position: absolute;
-    bottom: -190px; 
-    left: 900px;
+    bottom: -195px; 
+    left: 1150px;
     color: black;
     font-size: 13px;
     font-family: Arial;
@@ -112,8 +112,8 @@ Para fijar los elementos, hay que declarar:
 .descarga__pdf3{
     text-decoration: none;
     position: absolute;
-    bottom: -301px; 
-    left: 900px;
+    bottom: -305px; 
+    left: 1150px;
     color: black;
     font-size: 13px;
     font-family: Arial;
@@ -126,8 +126,8 @@ Para fijar los elementos, hay que declarar:
 .descarga__pdf4{
     text-decoration: none;
     position: absolute;
-    bottom: -410px; 
-    left: 900px;
+    bottom: -412px; 
+    left: 1150px;
     color: black;
     font-size: 13px;
     font-family: Arial;
@@ -140,8 +140,8 @@ Para fijar los elementos, hay que declarar:
 .descarga__pdf5{
     text-decoration: none;
     position: absolute;
-    bottom: -520px; 
-    left: 900px;
+    bottom: -522px; 
+    left: 1150px;
     color: black;
     font-size: 13px;
     font-family: Arial;
@@ -154,8 +154,158 @@ Para fijar los elementos, hay que declarar:
 .descarga__pdf6{
     text-decoration: none;
     position: absolute;
-    bottom: -620px; 
-    left: 900px;
+    bottom: -623px; 
+    left: 1150px;
+    color: black;
+    font-size: 13px;
+    font-family: Arial;
+    background-color: aliceblue;
+    width: 115px;
+    padding: 15px 0px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.descarga__pdf7{
+    text-decoration: none;
+    position: absolute;
+    bottom: -737px; 
+    left: 1150px;
+    color: black;
+    font-size: 13px;
+    font-family: Arial;
+    background-color: aliceblue;
+    width: 115px;
+    padding: 15px 0px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.descarga__pdf8{
+    text-decoration: none;
+    position: absolute;
+    bottom: -846px; 
+    left: 1150px;
+    color: black;
+    font-size: 13px;
+    font-family: Arial;
+    background-color: aliceblue;
+    width: 115px;
+    padding: 15px 0px;
+    text-align: center;
+    border-radius: 10px;
+}
+/* **************FIN Descargar PDF***************/
+
+/* ********************************************************************************************************************************* */
+/* ********************************************************************************************************************************* */
+/********** Leer Biblia***************/
+.grid-enlace{
+    position: relative;
+}
+.enlace__salmo1{
+    text-decoration: none;
+    position: absolute;
+    bottom: -85px; 
+    left: 450px;
+    color: black;
+    font-size: 13px;
+    font-family: Arial;
+    background-color: aliceblue;
+    width: 115px;
+    padding: 15px 0px;
+    text-align: center;
+    border-radius: 10px;
+}
+.enlace__salmo2{
+    text-decoration: none;
+    position: absolute;
+    bottom: -195px; 
+    left: 450px;
+    color: black;
+    font-size: 13px;
+    font-family: Arial;
+    background-color: aliceblue;
+    width: 115px;
+    padding: 15px 0px;
+    text-align: center;
+    border-radius: 10px;
+}
+.enlace__salmo3{
+    text-decoration: none;
+    position: absolute;
+    bottom: -305px; 
+    left: 450px;
+    color: black;
+    font-size: 13px;
+    font-family: Arial;
+    background-color: aliceblue;
+    width: 115px;
+    padding: 15px 0px;
+    text-align: center;
+    border-radius: 10px;
+}
+.enlace__salmo4{
+    text-decoration: none;
+    position: absolute;
+    bottom: -412px; 
+    left: 450px;
+    color: black;
+    font-size: 13px;
+    font-family: Arial;
+    background-color: aliceblue;
+    width: 115px;
+    padding: 15px 0px;
+    text-align: center;
+    border-radius: 10px;
+}
+.enlace__salmo5{
+    text-decoration: none;
+    position: absolute;
+    bottom: -522px; 
+    left: 450px;
+    color: black;
+    font-size: 13px;
+    font-family: Arial;
+    background-color: aliceblue;
+    width: 115px;
+    padding: 15px 0px;
+    text-align: center;
+    border-radius: 10px;
+}
+.enlace__salmo6{
+    text-decoration: none;
+    position: absolute;
+    bottom: -623px; 
+    left: 450px;
+    color: black;
+    font-size: 13px;
+    font-family: Arial;
+    background-color: aliceblue;
+    width: 115px;
+    padding: 15px 0px;
+    text-align: center;
+    border-radius: 10px;
+}
+.enlace__salmo7{
+    text-decoration: none;
+    position: absolute;
+    bottom: -737px; 
+    left: 450px;
+    color: black;
+    font-size: 13px;
+    font-family: Arial;
+    background-color: aliceblue;
+    width: 115px;
+    padding: 15px 0px;
+    text-align: center;
+    border-radius: 10px;
+}
+.enlace__salmo8{
+    text-decoration: none;
+    position: absolute;
+    bottom: -850px; 
+    left: 450px;
     color: black;
     font-size: 13px;
     font-family: Arial;
@@ -167,7 +317,7 @@ Para fijar los elementos, hay que declarar:
 }
 
 
-/* **************FIN Descargar PDF***************/
+/* **************FIN Leer Biblia***************/
 
 /* ********************************************************************************************************************************* */
 /* ********************************************************************************************************************************* */
@@ -181,7 +331,7 @@ Para fijar los elementos, hay que declarar:
 .orden__Salmo1
 {
     position: relative;
-    bottom: -75px;
+    bottom: -110px;
     left: 50px; 
     color: aliceblue;
     font-size: 20px;
@@ -420,6 +570,91 @@ Para fijar los elementos, hay que declarar:
 }
 /******************************* FIN Salmo 6********************************************* */
 
+/* **********************Salmo 7********************************************* */
+/* Orden Salmo 7 */
+.orden__Salmo7
+{
+    position: absolute;
+    bottom: -730px;
+    left: 50px; 
+    color: aliceblue;
+    font-size: 20px;
+    
+}
+/* Capuitulo Salmo 7 */
+.cap__Salmo7
+{
+    position: absolute;
+    bottom: -705px; 
+    left: 90px;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+/* Texto Salmo 7 */
+.versiculo__Salmo7
+{
+    position: absolute;
+    bottom: -725px; 
+    left: 90px;
+    color: aliceblue;
+    font-size: 15px;
+    font-family: "Calibri"
+}
+/* Texto 2 Salmo 7 */
+.versiculo1__Salmo7
+{
+    position: absolute;
+    bottom: -745px; 
+    left: 90px;
+    color: aliceblue;
+    font-size: 15px;
+    font-family: "Calibri"
+}
+/******************************* FIN Salmo 7********************************************* */
+/* **********************Salmo 8********************************************* */
+/* Orden Salmo 8 */
+.orden__Salmo8
+{
+    position: absolute;
+    bottom: -835px;
+    left: 50px; 
+    color: aliceblue;
+    font-size: 20px;
+    
+}
+/* Capuitulo Salmo 8 */
+.cap__Salmo8
+{
+    position: absolute;
+    bottom: -815px; 
+    left: 90px;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+/* Texto Salmo 8 */
+.versiculo__Salmo8
+{
+    position: absolute;
+    bottom: -835px; 
+    left: 90px;
+    color: aliceblue;
+    font-size: 15px;
+    font-family: "Calibri"
+}
+/* Texto 2 Salmo 8 */
+.versiculo1__Salmo8
+{
+    position: absolute;
+    bottom: -855px; 
+    left: 90px;
+    color: aliceblue;
+    font-size: 15px;
+    font-family: "Calibri"
+}
+/******************************* FIN Salmo 8********************************************* */
+
 
 /* ********************************************************************************************************************************* */
 /* ********************************************************************************************************************************* */
@@ -436,7 +671,7 @@ Para fijar los elementos, hay que declarar:
 .audio1{
     position: absolute;
     bottom: -90px; 
-    left: 450px;
+    left: 700px;
     text-align: center;
     border-radius: 10px;
 }
@@ -445,7 +680,7 @@ Para fijar los elementos, hay que declarar:
 .audio2{
     position: absolute;
     bottom:-200px; 
-    left: 450px;
+    left: 700px;
     text-align: center;
     border-radius: 10px;
 }
@@ -453,7 +688,7 @@ Para fijar los elementos, hay que declarar:
 .audio3{
     position: absolute;
     bottom:-310px; 
-    left: 450px;
+    left: 700px;
     text-align: center;
     border-radius: 10px;
 }
@@ -462,7 +697,7 @@ Para fijar los elementos, hay que declarar:
 .audio4{
     position: absolute;
     bottom:-420px; 
-    left: 450px;
+    left: 700px;
     text-align: center;
     border-radius: 10px;
 }
@@ -470,7 +705,7 @@ Para fijar los elementos, hay que declarar:
 .audio5{
     position: absolute;
     bottom:-530px; 
-    left: 450px;
+    left: 700px;
     text-align: center;
     border-radius: 10px;
 }
@@ -478,7 +713,25 @@ Para fijar los elementos, hay que declarar:
 .audio6{
     position: absolute;
     bottom:-630px; 
-    left: 450px;
+    left: 700px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* Audio Salmo 7 */
+.audio7{
+    position: absolute;
+    bottom:-745px; 
+    left: 700px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* Audio Salmo 8 */
+.audio8{
+    position: absolute;
+    bottom:-855px; 
+    left: 700px;
     text-align: center;
     border-radius: 10px;
 }
@@ -586,6 +839,41 @@ Para fijar los elementos, hay que declarar:
   
   }
   .linea-salmo6b {
+    border-top: 1px solid black;
+  height: 2px;
+  max-width: 2000px;
+  padding: 0;
+  margin: 95px auto 0 auto;
+
+  }
+   /* Lineas 7*/
+.linea-salmo7a {
+    border-top: 1px solid black;
+  height: 2px;
+  max-width: 2000px;
+  padding: 0;
+  margin: 10px auto 0 auto;
+  
+  }
+  .linea-salmo7b {
+    border-top: 1px solid black;
+  height: 2px;
+  max-width: 2000px;
+  padding: 0;
+  margin: 95px auto 0 auto;
+
+  }
+
+   /* Lineas 8*/
+.linea-salmo8a {
+    border-top: 1px solid black;
+  height: 2px;
+  max-width: 2000px;
+  padding: 0;
+  margin: 10px auto 0 auto;
+  
+  }
+  .linea-salmo8b {
     border-top: 1px solid black;
   height: 2px;
   max-width: 2000px;
