@@ -881,6 +881,15 @@ Para fijar los elementos, hay que declarar:
   margin: 95px auto 0 auto;
 
   }
+     /* Lineas 9*/
+.linea-salmo9a {
+    border-top: 1px solid black;
+  height: 2px;
+  max-width: 2000px;
+  padding: 0;
+  margin: 10px auto 0 auto;
+  
+  }
 
 
 
