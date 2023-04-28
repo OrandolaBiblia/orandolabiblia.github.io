@@ -15,14 +15,14 @@ body{
 }
 
 /* Modificamos el contenedor de la página */
-.container{
+/*.container{
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
     overflow: hidden;
     padding: var(--padding-container);
    
-}
+}*/
 
 /* Cabecera: color de fondo y posicion */
 .hero{
